@@ -1,0 +1,31 @@
+
+.text-doge {
+    color: #ba9f33;
+}
+
+.text-doge:hover {
+
+}
+
+.btn.bg-doge {
+    background-color: #ba9f33 !important;
+}
+
+.btn.bg-doge:hover {
+    background-color: #927239 !important;
+}
+
+.btn.bg-doge:active {
+    background-color: #927239 !important;
+}
+
+.btn.bg-doge:disabled {
+    background-color: #927239 !important;
+}
+
+.bg-doge {
+    background-color: #ba9f33 !important;
+}
+.bg-doge:disabled {
+    background-color: #927239 !important;
+}
