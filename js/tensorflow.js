@@ -11,7 +11,7 @@ let classes = ["NOT doge", "doge"]
 window.onload = async function () {
 
     let alreadyPreheated = false
-    const model = await tfconv.loadGraphModel('http://localhost:63342/web/tjfs2/model.json', {
+    const model = await tfconv.loadGraphModel('https://dogeclassifier.com/tjfs2/model.json', {
         
         onProgress: (fraction) => {
             let event = new CustomEvent("loadTfModelProgress", {"detail": fraction})
